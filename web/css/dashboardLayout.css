@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+
+    /* Important */
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 60px;
+    min-height: 60px;
+
+    background: rgba(0,0,0,0.9);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    flex-shrink: 0;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search {
+    width: 40%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#datetime {
+    font-size: 14px;
+    color: #f1f1f1;
+}
+
+
+/* CONTAINER */
+.container {
+    display: flex;
+
+    /* Header aur Footer ke beech ki complete space */
+    flex: 1;
+
+    min-height: 0;
+
+    overflow: hidden;
+}
+
+
+/* SIDEBAR */
+.left {
+    width: 250px;
+
+    background: #111;
+    color: white;
+
+    padding-top: 20px;
+
+    box-sizing: border-box;
+
+    /* VERY IMPORTANT */
+    height: 100%;
+    min-height: 0;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    flex-shrink: 0;
+}
+/* Sidebar Scrollbar */
+
+.left::-webkit-scrollbar {
+    width: 6px;
+}
+
+.left::-webkit-scrollbar-track {
+    background: #111;
+}
+
+.left::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+}
+
+.left::-webkit-scrollbar-thumb:hover {
+    background: #3498db;
+}
+
+
+a.menu {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 12px 20px;
+
+    color: white;
+    text-decoration: none;
+
+    box-sizing: border-box;
+}
+
+a.menu:hover {
+    background: #3498db;
+}
+
+/* FOOTER */
+.footer {
+    height: 50px;
+    min-height: 50px;
+    background: rgba(0,0,0,0.9);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+/* ================= SOCIAL ================= */
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 14px;
+}
+
+.social i {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social i:hover {
+    transform: scale(1.2);
+}
+
+.fa-instagram {
+    color: #E1306C;
+}
+
+.fa-facebook {
+    color: #1877F2;
+}
+
+.fa-linkedin {
+    color: #0A66C2;
+}
