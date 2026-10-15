@@ -1,4 +1,4 @@
-```jsp
+
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@ page import="java.sql.*" %>
 <%@ page import="java.util.*" %>
@@ -9,7 +9,7 @@
    SESSION DATA
 ================*/
 
-String destination =String) session.getAttribute("aiDestination");
+String destination = (String) session.getAttribute("aiDestination");
 
 Double budget =(Double) session.getAttribute("aiBudget");
 
@@ -17,7 +17,7 @@ Integer days =(Integer) session.getAttribute("aiDays");
 
 Integer persons =(Integer) session.getAttribute("aiPersons");
 
-String travelType =String) session.getAttribute("aiTravelType");
+String travelType = (String) session.getAttribute("aiTravelType");
 
 String requirementType =(String) session.getAttribute("aiRequirementType");
 

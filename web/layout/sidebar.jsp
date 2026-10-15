@@ -15,7 +15,7 @@
         <a href="touristGuide.jsp" class="menu"><i class="fa fa-map-location-dot"></i> Smart Tourist Guide</a>
         
         <a href="aiTravelAssistant.jsp" class="menu"><i class="fa fa-robot"></i> AI Travel Assistant</a>
-        <a href="viewCustomPackage.jsp" class="menu"><i class="fa fa-suitcase"></i> Custom Package Bookings</a>
+<!--        <a href="viewCustomPackage.jsp" class="menu"><i class="fa fa-suitcase"></i> Custom Package Bookings</a>-->
         <a href="foreignSupport.jsp" class="menu"><i class="fa fa-language"></i> Foreign Tourist Support</a>
 
        
@@ -23,7 +23,7 @@
          <a href="bookingHistory.jsp" class="menu"><i class="fa fa-clock-rotate-left"></i> Booking History</a>
          <a href="currencyConverter.jsp" class="menu"><i class="fa fa-money-bill-transfer"></i> Currency Converter</a>
         
-<!--         <a href="reports.jsp" class="menu"><i class="fa fa-chart-line"></i> Reports</a>-->
-         <a href="profile.jsp" class="menu"><i class="fa fa-user"></i> Profile</a>
+         <!--   <a href="reports.jsp" class="menu"><i class="fa fa-chart-line"></i> Reports</a>--> 
+<!--         <a href="profile.jsp" class="menu"><i class="fa fa-user"></i> Profile</a>-->
          
     </div>

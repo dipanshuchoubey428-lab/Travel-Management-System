@@ -369,7 +369,7 @@ Currency Converter
 
 </div>
 
-<!-- Charts -->
+<!-- Charts 
 
 <div class="chart-box">
 
@@ -381,9 +381,9 @@ Currency Converter
 
 <canvas id="pieChart"></canvas>
 
-</div>
+</div> -->
 
-<script>
+<%-- <script>
     
 new Chart(document.getElementById("barChart"),{
 
@@ -421,6 +421,8 @@ backgroundColor:[
 }
 
 });
+--%>
+
 <%--
 new Chart(document.getElementById("pieChart"),{
 

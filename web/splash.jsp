@@ -123,7 +123,7 @@
 
     <div class="splash">
 
-        <h1>Travel And turism Management System</h1>
+        <h1>Travel And tourism Management System</h1>
 
         <div class="loader"></div>
 
